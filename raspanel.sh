@@ -639,6 +639,7 @@ ldconfig
   	echo 'libsodium安装完成'
   	
  cd /root
+    rm -rf shadowsocksr.zip
 	wget  -c --no-check-certificate "${shadowsocksr2}"
 	unzip shadowsocksr.zip
 	mv /root/shadowsocksr /root/ssr
