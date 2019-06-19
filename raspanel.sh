@@ -543,6 +543,7 @@ function install_ssrr(){
 
 	cd /root/
 rm -rf /root/shadowsocksr
+rm -rf /root/shadowsocksr.zip
 	
 cd /root
 yum -y groupinstall "Development Tools"
@@ -620,6 +621,7 @@ function install_ssrr2(){
 
 	cd /root/
 rm -rf /root/ssr
+rm -rf /root/shadowsocksr.zip
 	
 cd /root
 yum -y groupinstall "Development Tools"
@@ -640,9 +642,9 @@ ldconfig
   	
  cd /root
     rm -rf shadowsocksr.zip
-	wget  -c --no-check-certificate "${shadowsocksr2}"
-	unzip shadowsocksr.zip
-	mv /root/shadowsocksr /root/ssr
+	wget  -c --no-check-certificate "https://raw.githubusercontent.com/datougansini/myshell/master/ssr.zip"
+	unzip ssr.zip
+#	mv /root/shadowsocksr /root/ssr
 	cd ssr
 	chmod 777 *
  chmod +x setup_cymysql.sh 
