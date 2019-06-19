@@ -619,7 +619,7 @@ function install_ssrr2(){
 	#clear
 
 	cd /root/
-	rm -rf /ssr
+rm -rf /root/ssr
 	
 cd /root
 yum -y groupinstall "Development Tools"
