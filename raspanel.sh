@@ -647,6 +647,7 @@ ldconfig
 	chmod 777 *
  chmod +x setup_cymysql.sh 
   	chmod +x ./initcfg.sh
+  	echo "准备安装SSR"
   	./setup_cymysql.sh
   	./initcfg.sh
 	wget  -c --no-check-certificate "https://raw.githubusercontent.com/datougansini/myshell/master/user-config.json"
