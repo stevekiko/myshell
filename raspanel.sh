@@ -542,7 +542,7 @@ function install_ssrr(){
 	#clear
 
 	cd /root/
-	rm -rf /shadowsocksr
+rm -rf /root/shadowsocksr
 	
 cd /root
 yum -y groupinstall "Development Tools"
