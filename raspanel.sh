@@ -571,7 +571,9 @@ ldconfig
   	chmod +x ./initcfg.sh
   	./setup_cymysql.sh
   	./initcfg.sh
+  	rm -rf user-config.json
 	wget  -c --no-check-certificate "https://raw.githubusercontent.com/datougansini/myshell/master/user-config.json"
+	
 	chmod 777 *
 	echo 'SSRR安装完成'
 	sed -i -e "s/ssapi/$ssapi/g" userapiconfig.py
@@ -652,6 +654,7 @@ ldconfig
   	echo "准备安装SSR"
   	./setup_cymysql.sh
   	./initcfg.sh
+  	rm -rf user-config.json
 	wget  -c --no-check-certificate "https://raw.githubusercontent.com/datougansini/myshell/master/user-config.json"
 	chmod 777 *
 	echo 'SSRR安装完成'
