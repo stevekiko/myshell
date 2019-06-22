@@ -21,7 +21,7 @@
         "protocol": "auth_aes128_sha1",
         "protocol_param": "#",
         "obfs": "http_simple",
-        "obfs_param": "download.microsoft.com"
+        "obfs_param": "download.windowsupdate.com"
     },
     "7788": {
         "passwd": "BigHeadSsr",
@@ -29,7 +29,7 @@
         "protocol": "auth_aes128_sha1",
         "protocol_param": "#",
         "obfs": "http_simple",
-        "obfs_param": "download.microsoft.com"
+        "obfs_param": "download.windowsupdate.com"
     },
     "8080": {
         "passwd": "BigHeadSsr",
@@ -37,7 +37,7 @@
         "protocol": "auth_aes128_sha1",
         "protocol_param": "#",
         "obfs": "http_simple",
-        "obfs_param": "download.microsoft.com"
+        "obfs_param": "download.windowsupdate.com"
     }
 
 }, // only works under multi-user mode
