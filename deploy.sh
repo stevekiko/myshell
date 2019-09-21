@@ -37,7 +37,7 @@ function install_vnet(){
     read -p " 按下回车默认0时， 小时(0-23): " -r -e -i 7 hour
     read -p " 按下回车默认30分，分钟(0-59): " -r -e -i 30 minute
     read -p " 面板地址: " -r -e -i https://api.0599.pro  api_host
-    read -p " 面板通讯密钥: " -r -e -i  api_key
+    read -p " 面板通讯密钥: " -r -e -i xxxxx api_key
     read -p " 节点id: " -r -e -i 1 node_id
 
     cd /root/
