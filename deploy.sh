@@ -46,7 +46,7 @@ fi
 echo '设置每天几点几分重启节点'
 read -p " 按下回车默认0时， 小时(0-23): " -r -e -i 7 hour
 read -p " 按下回车默认30分，分钟(0-59): " -r -e -i 30 minute
-read -p " 面板地址(带http[s]://xxxxx): " -r -e -i https://api.0599.pro  api_host
+read -p " 面板地址(带http[s]://xxxxx): " -r -e https://api.0599.pro  api_host
 read -p " 面板通讯密钥(节点管理->节点授权中): " -r -e  api_key
 read -p " 节点id: " -r -e  node_id
 
@@ -55,7 +55,7 @@ cd /root/
 rm -rf vnet_latest.tar.gz vnet
 
 #下载vnet最新版本压缩包
-wget https://kitami-hk.oss-cn-hongkong.aliyuncs.com/vnet_2.0.3.tar.gz -O vnet_latest.tar.gz
+wget https://kitami-hk.oss-cn-hongkong.aliyuncs.com/vnet_2.0.4.tar.gz -O vnet_latest.tar.gz
 mkdir -p /root/vnet
 tar -xzvf vnet_latest.tar.gz -C vnet
 
